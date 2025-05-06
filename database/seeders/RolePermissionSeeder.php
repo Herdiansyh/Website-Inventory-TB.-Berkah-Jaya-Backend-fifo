@@ -31,6 +31,7 @@ class RolePermissionSeeder extends Seeder
             'manage-users',
             'manage-size',
             'manage-brand',
+            'manage-categories',
         ];
 
         foreach ($permissions as $permission) {

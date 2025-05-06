@@ -3,6 +3,7 @@
 use App\Http\Controllers\Article\ArticleController;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Brand\BrandController;
+use App\Http\Controllers\Categories\CategoriesController;
 use App\Http\Controllers\Role\RoleController;
 use App\Http\Controllers\Size\SizeController;
 use App\Http\Controllers\User\UserController;
@@ -36,4 +37,5 @@ Route::middleware('auth:api')->group(function () {
 
     Route::apiResource('size', SizeController::class)->middleware('permission:manage-size');
     Route::apiResource('brand', BrandController::class)->middleware('permission:manage-brand');
+    Route::apiResource('categories', CategoriesController::class)->middleware('permission:manage-categories');
 });

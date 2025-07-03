@@ -102,11 +102,11 @@ php artisan jwt:secret
 
 ## 🔐 Akun Login yang Tersedia
 
-| Role        | Email                      | Password    |
-|-------------|-----------------------------|-------------|
-| Superadmin  | superadmin@example.com       | 123123123   |
-| Admin       | admin@example.com            | 123123123   |
-| User        | user@example.com             | 123123123   |
+| Role     | username | Password  |
+| -------- | -------- | --------- |
+| Owner    | owner    | 123123123 |     
+| Karyawan | karyawan | 123123123 |
+
 
 ---
 
